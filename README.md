@@ -30,12 +30,12 @@
 ## 1. Склонируйте репозиторий:
    ```bash
    git clone <your-repo-url>
-   cd postgres-store
+   cd Postgres-Admin-Tools
    ```
    
 ## 2. Запустите мастер и слейв, а затем настройте репликацию:
    ```bash
-    ./start_all.sh
+    ./Postgres-Admin-Tools/scripts/start_all.sh
    ```
  
 ## 3. Убедитесь, что конфигурация репликации настроена.
