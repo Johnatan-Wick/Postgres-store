@@ -3,7 +3,7 @@
 docker-entrypoint.sh postgres &
 
 echo "Ожидание запуска PostgreSQL..."
-until pg_isready -h localhost -p 5434 -U postgres; do
+until pg_isready -h localhost -p 5432 -U postgres; do
     sleep 1
 done
 
