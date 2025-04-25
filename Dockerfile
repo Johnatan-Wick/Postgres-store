@@ -8,7 +8,7 @@ COPY config/master/pg_hba.conf /etc/postgresql/pg_hba.conf
 COPY scripts /scripts
 
 # Копируем entrypoint.sh
-COPY entrypoint.sh /entrypoint.sh
+COPY scripts/entrypoint.sh /entrypoint.sh
 
 # Делаем скрипты исполняемыми
 RUN chmod +x /entrypoint.sh /scripts/*.sh
